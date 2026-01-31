@@ -1,0 +1,5 @@
+{
+  "name": "HGV Route Calculator FR",
+  "description": "Calculateur professionnel de distances routières pour camions (PL) en France avec paramètres PTRA 44t et restrictions spécifiques via OpenRouteService.",
+  "requestFramePermissions": []
+}
