@@ -7,8 +7,7 @@ import { HGVParams } from '../types';
  */
 const getApiKey = () => {
   try {
-    // @ts-ignore
-    return typeof process !== 'undefined' ? (process.env.API_KEY || "") : "";
+    return import.meta.env.VITE_API_KEY || "";
   } catch (e) {
     return "";
   }
